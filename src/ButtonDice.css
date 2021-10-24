@@ -10,7 +10,14 @@
     padding: 1rem;
 }
 
-.btn-dice-launch {
-    width: 100px;
+.btn-dices-panel {
+    display: flex;
+    flex-direction: row;
     align-self: center;
+}
+
+.btn-dices-panel>* {
+    padding: 10px;
+    margin: 10px;
+    width: 100px;
 }
