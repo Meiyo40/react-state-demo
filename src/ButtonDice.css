@@ -1,0 +1,16 @@
+.ButtonDice,
+.Dices {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Dices {
+    flex-direction: row;
+    padding: 1rem;
+}
+
+.btn-dice-launch {
+    width: 100px;
+    align-self: center;
+}

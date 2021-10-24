@@ -2,12 +2,12 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import Game from './Game';
 import Button from './Button';
+import ButtonDice from './ButtonDice';
 class App extends Component {
     render () {
         return (
             <div className="App">
-                <h1>My App</h1>  
-                <Button text="Random Number" desactiveText="YOU WIN !" />
+                <ButtonDice text="Launch Dice" desactiveText="" />
             </div>
         )
     }
